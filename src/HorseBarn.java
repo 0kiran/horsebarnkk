@@ -11,6 +11,9 @@ public class HorseBarn {
             if (this.spaces[i] != null){
                 list += this.spaces[i].getName() + ", ";
             }
+            else {
+                list += "Empty, ";
+            }
         }
         return list.substring(0,list.length()-2)+"]";
     }

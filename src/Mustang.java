@@ -10,12 +10,12 @@ public class Mustang implements Horse {
 
     @Override
     public String getName() {
-        return name;
+        return this.name;
     }
 
     @Override
     public int getWeight() {
-        return weight;
+        return this.weight;
     }
 
 }

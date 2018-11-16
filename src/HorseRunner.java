@@ -11,6 +11,6 @@ public class HorseRunner {
         horses[5] = horse3;
         HorseBarn barn = new HorseBarn(horses);
 
-        System.out.println(barn)
+        System.out.println(barn);
     }
 }
